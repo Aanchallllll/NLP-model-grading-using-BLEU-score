@@ -4,6 +4,7 @@
 
 BLEU (Bilingual Evaluation Understudy) score is a commonly used metric to assess the quality of text produced by machine translation systems.
 This project calculates the BLEU  score for a given candidate sentence against multiple reference sentences.
+Instead of relying on external libraries like nltk,etc. for the calculation, the project implements the BLEU score algorithm from scratch, using only Python's standard libraries such as `math` and `collections` for utility functions.
 
 
 
